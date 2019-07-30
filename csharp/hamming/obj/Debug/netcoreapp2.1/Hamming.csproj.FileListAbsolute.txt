@@ -1,0 +1,14 @@
+/Users/jpinkerton/Exercism/csharp/hamming/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/jpinkerton/Exercism/csharp/hamming/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/jpinkerton/Exercism/csharp/hamming/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/jpinkerton/Exercism/csharp/hamming/bin/Debug/netcoreapp2.1/Hamming.deps.json
+/Users/jpinkerton/Exercism/csharp/hamming/bin/Debug/netcoreapp2.1/Hamming.runtimeconfig.json
+/Users/jpinkerton/Exercism/csharp/hamming/bin/Debug/netcoreapp2.1/Hamming.runtimeconfig.dev.json
+/Users/jpinkerton/Exercism/csharp/hamming/bin/Debug/netcoreapp2.1/Hamming.dll
+/Users/jpinkerton/Exercism/csharp/hamming/bin/Debug/netcoreapp2.1/Hamming.pdb
+/Users/jpinkerton/Exercism/csharp/hamming/obj/Debug/netcoreapp2.1/Hamming.csprojAssemblyReference.cache
+/Users/jpinkerton/Exercism/csharp/hamming/obj/Debug/netcoreapp2.1/Hamming.csproj.CoreCompileInputs.cache
+/Users/jpinkerton/Exercism/csharp/hamming/obj/Debug/netcoreapp2.1/Hamming.AssemblyInfoInputs.cache
+/Users/jpinkerton/Exercism/csharp/hamming/obj/Debug/netcoreapp2.1/Hamming.AssemblyInfo.cs
+/Users/jpinkerton/Exercism/csharp/hamming/obj/Debug/netcoreapp2.1/Hamming.dll
+/Users/jpinkerton/Exercism/csharp/hamming/obj/Debug/netcoreapp2.1/Hamming.pdb
