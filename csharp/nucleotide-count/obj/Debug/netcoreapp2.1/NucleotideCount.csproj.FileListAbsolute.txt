@@ -1,0 +1,14 @@
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/bin/Debug/netcoreapp2.1/NucleotideCount.deps.json
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/bin/Debug/netcoreapp2.1/NucleotideCount.runtimeconfig.json
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/bin/Debug/netcoreapp2.1/NucleotideCount.runtimeconfig.dev.json
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/bin/Debug/netcoreapp2.1/NucleotideCount.dll
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/bin/Debug/netcoreapp2.1/NucleotideCount.pdb
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/obj/Debug/netcoreapp2.1/NucleotideCount.csprojAssemblyReference.cache
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/obj/Debug/netcoreapp2.1/NucleotideCount.csproj.CoreCompileInputs.cache
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/obj/Debug/netcoreapp2.1/NucleotideCount.AssemblyInfoInputs.cache
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/obj/Debug/netcoreapp2.1/NucleotideCount.AssemblyInfo.cs
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/obj/Debug/netcoreapp2.1/NucleotideCount.dll
+/Users/jpinkerton/Exercism/csharp/nucleotide-count/obj/Debug/netcoreapp2.1/NucleotideCount.pdb
