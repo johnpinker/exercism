@@ -1,0 +1,14 @@
+/Users/jpinkerton/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/jpinkerton/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/jpinkerton/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/jpinkerton/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/ResistorColor.deps.json
+/Users/jpinkerton/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/ResistorColor.runtimeconfig.json
+/Users/jpinkerton/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/ResistorColor.runtimeconfig.dev.json
+/Users/jpinkerton/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/ResistorColor.dll
+/Users/jpinkerton/Exercism/csharp/resistor-color/bin/Debug/netcoreapp2.1/ResistorColor.pdb
+/Users/jpinkerton/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.csprojAssemblyReference.cache
+/Users/jpinkerton/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.csproj.CoreCompileInputs.cache
+/Users/jpinkerton/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.AssemblyInfoInputs.cache
+/Users/jpinkerton/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.AssemblyInfo.cs
+/Users/jpinkerton/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.dll
+/Users/jpinkerton/Exercism/csharp/resistor-color/obj/Debug/netcoreapp2.1/ResistorColor.pdb
