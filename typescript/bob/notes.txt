@@ -1,0 +1,46 @@
+
+
+words are separated by spaces or ","
+
+yelling is upper case characters or symbols
+
+question is "Sure."
+ends with ?
+
+yelling is "Whoa, chill out!"
+all words are caps
+
+"Calm down, I know what I'm doing!"
+question with all caps
+
+"Fine. Be that way!" if saying nothing
+
+
+"Whatever." to anything else
+
+
+1. split string into list of words
+
+1.1 for each word, 
+1.1.1 does word contain characters or numbers?
+1.1.1.1 add word to word count
+1.1.1.2 if so are characters all upper case?
+1.1.1.3 if not, then all words are not caps
+1.1.2 if word doesn't contain characters or numbers
+1.1.2.1 don't add to word count
+
+2. examine last character
+2.1 is last char "?"
+2.1.1 if words are all caps and there is more than one word
+2.1.2 print "Calm down, I know what I'm doing!"
+2.1.3 if there is more than one word
+2.1.4 print "Sure."
+
+3. examine word count
+3.1 if no words then 
+3.2 print "Fine. Be that way!"
+
+4. print "Whatever."
+
+
+

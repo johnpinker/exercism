@@ -1,0 +1,12 @@
+
+
+see if all letters are used in a sentence
+
+possibilities:
+
+array from 1-26 representing each number and set a value for each find.  if all elements are > 0 then it's true.
+
+
+map object to use a hashmap for similar but more OO
+
+
