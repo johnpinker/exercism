@@ -3,75 +3,62 @@
 public class CircularBuffer<T>
 {
     private T[] _buffer;
-    private int _readStart = -1;
-    private int _readEnd = -1;
+    private int _readStart;
+    private int _readEnd;
+    private int _numElements;
 
-
-    public CircularBuffer(int capacity)
-    {
-        _buffer = new T[capacity];
-    }
+    public CircularBuffer(int capacity) => _buffer = new T[capacity];
+   
+    private int IncPtr(int index)  => ((index + 1) % _buffer.Length);
+   
+    private int DecPtr(int index) =>  ((index + _buffer.Length - 1) % _buffer.Length);
     
-
     public T Read()
     {
-        if (_readStart == -1 || _readEnd == -1)
-            throw new InvalidOperationException(); // nothing to read
-        T retVal = _buffer[_readStart];
-        _readStart = IncWrap(_readStart);
-        if (isBufferFull())
+        if (isBufferEmpty())
         {
-            _readStart = -1;
-            _readEnd = -1;
+            throw new InvalidOperationException();
         }
-        return retVal;
-    }
-
-    private int IncWrap(int index) => index == _buffer.Length-1 ? 0 : index + 1;
-    private bool isBufferFull()
-    {
-        if (_readEnd == -1 || _readStart == -1)
-            return false;
-        if (_readEnd == _readStart)
-            return false;
-        int i = _readStart;
-        int j = 1;
-        while (i != _readEnd)
-        {
-            i = IncWrap(i);
-            j++;
-        }
-        if (j == _buffer.Length)
-        {
-            return true;
-        }
-        else
-            return false;
-
+        T tmpData = _buffer[_readStart];
+        _readStart = IncPtr(_readStart);
+        _numElements--;
+        return tmpData;
     }
 
     public void Write(T value)
     {
-        if (_readStart == -1)
-        {
-            _readStart = 0;
-            _readEnd = 0;
-        }
-        else
-            _readEnd = IncWrap(_readEnd);
         if (isBufferFull())
-            throw new InvalidOperationException(); // buffer full
-        
+        {
+            throw new InvalidOperationException();
+        }
         _buffer[_readEnd] = value;
+        _readEnd = IncPtr(_readEnd);
+        _numElements++;
     }
 
     public void Overwrite(T value)
     {
-        throw new NotImplementedException("You need to implement this function.");
+        if (!isBufferFull())
+            Write(value);
+        else
+        {
+            _buffer[_readStart] = value;
+            _readStart = IncPtr(_readStart);
+            _readEnd = IncPtr(_readEnd);
+        }
     }
 
     public void Clear()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        if (!isBufferEmpty())
+        {
+            _readStart = IncPtr(_readStart);
+            _numElements--;
+        }
     }
+
+    private bool isBufferEmpty() => _numElements == 0 ? true : false;
+
+    private bool isBufferFull() => (_numElements == _buffer.Length) ? true : false;
+
 }
