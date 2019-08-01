@@ -2,17 +2,13 @@
 
 public class SpiralMatrix
 {
-    private static int _size;
-    private static int[,] _matrix;
-
-    private static int numbersWritten =1;
     public static int[,] GetMatrix(int size)
     {
-        _matrix = new int[size, size];
-        _size = size; 
+        int [,] _matrix = new int[size, size];
+        int _size = size; 
         int num = 1;
-        int i =0;
-        int j = 0;
+        int i;
+        int j;
         int start = 0;
         int end = _size-1;
         i = start;
