@@ -1,6 +1,6 @@
 class Darts {
 
-    int _score = 0;
+    private int _score = 0;
 
     Darts(double x, double y) {
         double distance = Math.sqrt((x*x + y*y));
