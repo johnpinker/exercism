@@ -50,7 +50,7 @@ public class CollatzCalculatorTest {
         collatzCalculator.computeStepCount(0);
     }
 
-    
+
     @Test
     public void testNegativeIntegerIsConsideredInvalidInput() {
         expectedException.expect(IllegalArgumentException.class);
