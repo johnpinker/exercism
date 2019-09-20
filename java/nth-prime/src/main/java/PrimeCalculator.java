@@ -33,7 +33,7 @@ class PrimeCalculator {
     }
 
 
-    List<Integer> Sieve(int maxPrime) {
+    private List<Integer> Sieve(int maxPrime) {
         int[] numArray;
         numArray = new int[maxPrime+1];
         numArray[0] = -1;

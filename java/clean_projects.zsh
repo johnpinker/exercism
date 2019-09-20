@@ -3,7 +3,7 @@
 for x in *; do 
 	if [ -d "$x" ]; then
 		cd $x
-		dotnet clean
+		gradle clean
 		cd ..
 	fi
 done 

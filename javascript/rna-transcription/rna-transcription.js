@@ -3,8 +3,6 @@
 // convenience to get you started writing code faster.
 //
 
-export const toRna = (toRna) => { }
-/*
 export const toRna = (toRna) => {
    return [...toRna].map((x) => xForm(x)).join('');
 }
@@ -18,4 +16,4 @@ function xForm(c) {
 	}
 }
 
-*/
+
