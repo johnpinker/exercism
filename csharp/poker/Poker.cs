@@ -74,7 +74,7 @@ public class Card: IComparable
     }
 }
 
-public class Hand: IComparable
+public class Hand
 {
     Card[] cards;
     public string handString;
@@ -105,20 +105,6 @@ public class Hand: IComparable
         return 9; // no hand - high card
     }
 
-    public int CompareTo(object o)
-    {
-        Hand h = o as Hand;
-        //return this.HandClass().CompareTo(h.HandClass());
-        if (this.HandClass() == h.HandClass())
-        {
-            if (this.HighCard().CompareTo(h.HighCard()) > 0)
-                return 1;
-            else 
-                return 0;
-        }
-        else 
-            return this.HandClass().CompareTo(h.HandClass());
-    }
 }
 public static class Poker
 {
@@ -131,9 +117,10 @@ public static class Poker
             return handList.Select(s => s.handString);
 
         List<string> retHands = new List<string>();
-        retHands.Add(handList.OrderByDescending(s => s).Max().handString);
-        return retHands;
-        //return handList.Select(s => s.handString);
+        int highClass = handList.Max(s => s.HandClass());
+        List<Hand> highHands = handList.Where(s => s.HandClass() == highClass).ToList();
+        retHands.AddRange(highHands.Select(s => s.ToString()));
+        return retHands.ToArray();
 
     } 
 
