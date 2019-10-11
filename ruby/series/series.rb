@@ -6,13 +6,13 @@ class Series
 
     def slices(num)
         retVal = []
-        i=0
         if (num > @rawNums.length)
             raise ArgumentError
         end
-        until i == @rawNums.length-num+1
-            retVal = retVal.push(@rawNums[i..i+num-1])
-             i += 1
+        @rawNums.split("").each.with_index do | e, i | 
+            if i + num-1 < @rawNums.length
+                retVal.push(@rawNums[i..i+num-1])
+            end
         end
         return retVal
     end
